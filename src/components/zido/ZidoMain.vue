@@ -1,18 +1,19 @@
 <template>
   <article>
     <div id="img">
-      <img id="page" src="/triponezido.png" />
+      <img id="page" src="/zido/triponezido.png" />
     </div>
     <div id="content">
-      <div>
-        <button>더 자세하게.pdf</button>
-        <button>Git Hub link</button>
-      </div>
       <div id="logo">
-      <img src="/zidologo.png" />
-    </div>
-      <h3 style="margin: 0; color:#ffb9b6;">여행 계획 및 후기 공유 웹서비스</h3>
-      <h3 style="margin-top: 0;">진행기간 및 인원</h3>
+        <img src="/zido/zidologo.png" />
+      </div>
+
+      <h3 style="margin: 0; color: #ffb9b6">여행 계획 및 후기 공유 웹서비스</h3>
+      <div style="margin: 5px 0;">
+        <a href="/upload/portfolio.pdf" download="portfolio.pdf">더 자세하게.pdf</a>
+        <a href="https://github.com/s12171934/trip-one-zido">Git Hub link</a>
+      </div>
+      <h3 style="margin-top: 0">진행기간 및 인원</h3>
       <h4>24/02/22 ~ 24/03/31 - 5인</h4>
       <h3>핵심기능</h3>
       <h4>
@@ -95,15 +96,15 @@ h4 {
   font-size: 40px;
 }
 
-button {
-  margin: 3px;
-  padding: 7px;
-  background-color: #ffb9b6;
-  color: #ff5d58;
-  border: none;
+a {
+  margin-right: 7px;
+  padding: 0 3px;
+  color: #ff5b56;
+  border: 1px solid;
   border-radius: 10px;
   font-family: "Noto Sans KR";
   font-weight: 900;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 900px) {

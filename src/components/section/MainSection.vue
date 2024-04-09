@@ -13,6 +13,7 @@
           저는 높은 적응력과 빠른 습득력을 무기로<br />
           빠른 도약이 가능한 개발자입니다.
         </p>
+        <a href="/upload/portfolio.pdf" download="portfolio.pdf">이력서 다운로드</a>
       </div>
     </div>
     <AboutMeSection />
@@ -72,6 +73,22 @@ main {
 
 img {
   height: 800px;
+}
+
+a {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: 20px;
+  font-family: "Noto Sans KR";
+  font-weight: 900;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+a:hover {
+  background-color: rgb(199, 56, 228);
 }
 
 @media screen and (max-width: 900px) {
